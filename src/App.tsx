@@ -1,10 +1,9 @@
 import React, { FC } from "react";
-import { Button } from "antd";
 import "./App.less";
 
 import { Layout } from "antd";
 
-import { Menu, Row, Col, Avatar } from "antd";
+import { Menu, Row, Col, Avatar, Typography } from "antd";
 import { HomeOutlined } from "@ant-design/icons";
 
 class NavigationMenu extends React.Component {
@@ -46,6 +45,7 @@ class NavigationMenu extends React.Component {
   }
 }
 
+const { Title } = Typography;
 const { Header, Footer, Content } = Layout;
 
 const App: FC = () => (
@@ -54,7 +54,23 @@ const App: FC = () => (
       <NavigationMenu />
 
       <Content>
-        <Button type="primary">Button</Button>
+        <div style={{ position: "relative", width: "100%" }}>
+          <img
+            alt=""
+            src="https://backgroundcheckall.com/wp-content/uploads/2017/12/web-development-background-8.jpg"
+          ></img>
+          <Title
+            style={{
+              position: "absolute",
+              top: "50%",
+              alignContent: "center",
+              width: "100%",
+              color: "white",
+            }}
+          >
+            Hi, I'm Amr
+          </Title>
+        </div>
       </Content>
       <Footer>Footer</Footer>
     </Layout>
