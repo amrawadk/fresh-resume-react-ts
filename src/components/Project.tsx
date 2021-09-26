@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Space } from "antd";
 import { LinkOutlined, GithubOutlined } from "@ant-design/icons";
 
-interface ProjectProps {
+export interface ProjectProps {
   title: string;
   summary: string;
   url: URL;

@@ -1,13 +1,13 @@
 import { Meta } from "@storybook/react";
 
-import Project from "./Project";
+import Project, { ProjectProps } from "./Project";
 
 export default {
   component: Project,
   title: "Resume/Project",
 } as Meta;
 
-const Template: Project = (args) => <Project {...args} />;
+const Template: Project = (args: ProjectProps) => <Project {...args} />;
 
 export const Primary = Template.bind({});
 
