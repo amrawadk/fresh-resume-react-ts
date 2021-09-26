@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import { Typography, Row, Space } from "antd";
 import ReactMarkdown from "react-markdown";
-import SocialIcon, { SocialIconProps } from "./SocialIcon";
+import SocialIcon, { SocialIconProps } from "../ui/SocialIcon";
 
 export interface BannerProps {
   name: string;

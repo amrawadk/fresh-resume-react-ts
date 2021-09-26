@@ -1,5 +1,5 @@
 import Banner, { BannerProps } from "./Banner";
-import { Linkedin, Github, Gitlab, Upwork } from "./SocialIcon.stories";
+import { Linkedin, Github, Gitlab, Upwork } from "../ui/SocialIcon.stories";
 
 export default {
   component: Banner,

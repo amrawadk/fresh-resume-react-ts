@@ -4,7 +4,7 @@ import SocialIcon, { SocialIconProps } from "./SocialIcon";
 
 export default {
   component: SocialIcon,
-  title: "Components/SocialIcon",
+  title: "UI/SocialIcon",
 } as Meta;
 
 const Template = (args: SocialIconProps) => <SocialIcon {...args} />;

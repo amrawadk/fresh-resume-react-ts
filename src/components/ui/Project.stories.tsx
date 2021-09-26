@@ -4,7 +4,7 @@ import Project, { ProjectProps } from "./Project";
 
 export default {
   component: Project,
-  title: "Components/Project",
+  title: "UI/Project",
 } as Meta;
 
 const Template: Project = (args: ProjectProps) => <Project {...args} />;
