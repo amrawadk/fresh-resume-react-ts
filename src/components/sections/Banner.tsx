@@ -15,10 +15,10 @@ const { Title, Paragraph } = Typography;
 const Banner: FC<BannerProps> = ({ name, brief, socialIcons }) => (
   <div>
     <Row justify="center">
-      <Title>Hi, I'm {name}</Title>
+      <Title style={{ textAlign: "center" }}>Hi, I'm {name}</Title>
     </Row>
     <Row justify="center">
-      <Paragraph style={{ width: "60%" }}>
+      <Paragraph style={{ width: "60%", textAlign: "center" }}>
         <ReactMarkdown>{brief}</ReactMarkdown>
       </Paragraph>
     </Row>
