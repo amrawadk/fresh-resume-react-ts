@@ -7,6 +7,11 @@ const Home: React.FC<HomeProps> = (banner_props) => (
   <div>
     <NavigationMenu></NavigationMenu>
     <Banner {...banner_props} />
+    <Banner {...banner_props} />
+    <Banner {...banner_props} />
+    <Banner {...banner_props} />
+    <Banner {...banner_props} />
+    <Banner {...banner_props} />
   </div>
 );
 
