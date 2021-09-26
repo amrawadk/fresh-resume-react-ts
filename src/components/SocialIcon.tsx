@@ -4,7 +4,8 @@ import {
   LinkedinOutlined,
   GitlabOutlined,
 } from "@ant-design/icons";
-
+import { Icon } from "@iconify/react";
+import upworkIcon from "@iconify/icons-cib/upwork";
 export interface SocialIconProps {
   network: "Github" | "Gitlab" | "Linkedin" | "Upwork";
   user: string;
@@ -44,7 +45,6 @@ const SocialIcon: React.FC<SocialIconProps> = ({ network, user }) => {
           <GitlabOutlined style={{ fontSize: "150%" }} />
         </a>
       );
-    // TODO: Fix Upwork Icon
     case "Upwork":
       return (
         <a
@@ -52,7 +52,7 @@ const SocialIcon: React.FC<SocialIconProps> = ({ network, user }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <GithubOutlined style={{ fontSize: "150%" }} />
+          <Icon icon={upworkIcon} style={{ fontSize: "150%" }} />
         </a>
       );
     default:

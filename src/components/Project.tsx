@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col, Row, Space } from "antd";
+import { Card, Space } from "antd";
 import { LinkOutlined, GithubOutlined } from "@ant-design/icons";
 
 interface ProjectProps {
