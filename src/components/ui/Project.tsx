@@ -12,7 +12,7 @@ export interface ProjectProps {
 // TODO: change repo icon based on url base domain
 
 const Project: React.FC<ProjectProps> = ({ title, summary, url, repo }) => (
-  <Card title={title} style={{ width: 300 }}>
+  <Card title={title}>
     <p>{summary}</p>
 
     <Space>

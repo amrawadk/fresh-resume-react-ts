@@ -1,5 +1,6 @@
 import Home, { HomeProps } from "./Home";
 import { Primary } from "../sections/Banner.stories";
+import { Main } from "../sections/Projects.stories";
 
 export default {
   component: Home,
@@ -8,6 +9,7 @@ export default {
 
 const Template: Home = (args: HomeProps) => <Home {...args} />;
 
-export const Main = Template.bind({});
+export const HomeMain = Template.bind({});
 
-Main.args = { ...Primary.args };
+// TODO: fix this `project_propos`
+HomeMain.args = { banner_props: Primary.args, projects_props: Main.args };
