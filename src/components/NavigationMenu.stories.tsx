@@ -4,7 +4,7 @@ import NavigationMenu from "./NavigationMenu";
 
 export default {
   component: NavigationMenu,
-  title: "Components/NavigationMenu",
+  title: "Sections/TopNav",
 } as Meta;
 
 export const Primary: React.VFC<{}> = () => <NavigationMenu />;
