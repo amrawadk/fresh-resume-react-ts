@@ -31,7 +31,7 @@ TempoFullTime.args = {
     "Hiring",
   ],
   location: "Cairo, Egypt",
-  position: "Head of Backend",
+  position: "Engineering Manager, Backend",
   start: "2019-05",
   summary:
     "Backend Engineering Manager helping scale the backend team in terms of both head count and productivity.",
