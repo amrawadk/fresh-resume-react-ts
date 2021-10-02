@@ -16,8 +16,8 @@ const Jobs: FC<JobsProps> = ({ summary, jobs }) => (
     <Paragraph style={{ textAlign: "center" }}>{summary}</Paragraph>
 
     <Timeline>
-      {jobs.map((job) => (
-        <Timeline.Item>
+      {jobs.map((job, index) => (
+        <Timeline.Item key={index}>
           <Job {...job} />
         </Timeline.Item>
       ))}

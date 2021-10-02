@@ -8,7 +8,6 @@ class NavigationMenu extends React.Component {
   };
 
   handleClick = (e: any) => {
-    console.log("click ", e);
     this.setState({ current: e.key });
   };
 

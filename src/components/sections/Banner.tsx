@@ -25,7 +25,7 @@ const Banner: FC<BannerProps> = ({ name, brief, socialIcons }) => (
     <Row justify="center">
       <Space size="large">
         {socialIcons.map(({ network, user }) => (
-          <SocialIcon network={network} user={user} />
+          <SocialIcon network={network} user={user} key={network} />
         ))}
       </Space>
     </Row>
