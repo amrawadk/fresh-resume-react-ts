@@ -7,6 +7,7 @@ export default {
   title: "UI/Job",
 } as Meta;
 
+// @ts-ignore # TODO FIX THIS 'refers to a value, but is being used as a type'
 const Template: Job = (args: JobProps) => <Job {...args} />;
 
 export const TempoFullTime = Template.bind({});

@@ -16,10 +16,10 @@ const Project: React.FC<ProjectProps> = ({ title, summary, url, repo }) => (
     <p>{summary}</p>
 
     <Space>
-      <a href={url} target="_blank" rel="noopener noreferrer">
+      <a href={url.toString()} target="_blank" rel="noopener noreferrer">
         <LinkOutlined style={{ fontSize: "150%" }} />
       </a>
-      <a href={repo} target="_blank" rel="noopener noreferrer">
+      <a href={repo.toString()} target="_blank" rel="noopener noreferrer">
         <GithubOutlined style={{ fontSize: "150%" }} />
       </a>
     </Space>

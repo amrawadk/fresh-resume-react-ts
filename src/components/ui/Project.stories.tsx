@@ -7,6 +7,7 @@ export default {
   title: "UI/Project",
 } as Meta;
 
+// @ts-ignore # TODO FIX THIS 'refers to a value, but is being used as a type'
 const Template: Project = (args: ProjectProps) => <Project {...args} />;
 
 export const Primary = Template.bind({});

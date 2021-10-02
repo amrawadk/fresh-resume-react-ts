@@ -7,7 +7,10 @@ export default {
   title: "UI/SocialIcon",
 } as Meta;
 
-const Template = (args: SocialIconProps) => <SocialIcon {...args} />;
+// @ts-ignore # TODO FIX THIS 'refers to a value, but is being used as a type'
+const Template: SocialIcon = (args: SocialIconProps) => (
+  <SocialIcon {...args} />
+);
 
 export const Linkedin = Template.bind({});
 

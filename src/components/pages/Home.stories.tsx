@@ -8,6 +8,7 @@ export default {
   title: "Pages/Home",
 };
 
+// @ts-ignore # TODO FIX THIS 'refers to a value, but is being used as a type'
 const Template: Home = (args: HomeProps) => <Home {...args} />;
 
 export const HomeMain = Template.bind({});
