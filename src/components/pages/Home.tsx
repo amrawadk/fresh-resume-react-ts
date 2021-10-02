@@ -2,20 +2,23 @@ import React from "react";
 import Banner, { BannerProps } from "../sections/Banner";
 import NavigationMenu from "../sections/NavigationMenu";
 import Projects, { ProjectsProps } from "../sections/Projects";
+import Jobs, { JobsProps } from "../sections/jobs";
 
 export interface HomeProps {
-  banner_props: BannerProps;
-  projects_props: ProjectsProps;
+  banner: BannerProps;
+  projects: ProjectsProps;
+  jobs: JobsProps;
 }
-const Home: React.FC<HomeProps> = ({ banner_props, projects_props }) => (
+const Home: React.FC<HomeProps> = ({ banner, projects, jobs }) => (
   <div>
     <div style={{ height: "100vh" }}>
       <NavigationMenu></NavigationMenu>
       <div style={{ display: "flex", alignItems: "center", height: "100%" }}>
-        <Banner {...banner_props} />
+        <Banner {...banner} />
       </div>
     </div>
-    <Projects {...projects_props} />
+    <Projects {...projects} />
+    <Jobs {...jobs} />
   </div>
 );
 

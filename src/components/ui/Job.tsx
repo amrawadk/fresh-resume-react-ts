@@ -1,6 +1,5 @@
+import { Card } from "antd";
 import React from "react";
-import { Card, Space } from "antd";
-import { LinkOutlined, GithubOutlined } from "@ant-design/icons";
 import ReactMarkdown from "react-markdown";
 
 export interface JobProps {
