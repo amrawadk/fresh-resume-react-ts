@@ -1,0 +1,6 @@
+- [ ] Set up visual testing
+- [ ] Set up additional sections
+- [x] Read inputs from file
+- [x] Set a limit on $ of projects in home page (6)
+- [ ] Deploy the website
+- [ ] Deploy storybook
